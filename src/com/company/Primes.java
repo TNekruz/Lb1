@@ -15,7 +15,7 @@ public class Primes {
     }
 
     public static void main(String[] args) {
-        //проверяем все числа от 0 до 100 и если он простое, то выводим
+        //проверяем все числа от 0 до 100 и если он простое, то выводим его
         for (int i = 2; i <=100; i++)
         {
             if (isPrime(i))
